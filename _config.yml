@@ -1,19 +1,16 @@
 # Site settings
-
 # NB! Set your site's url, otherwise nothing will work
-url: "https://le4ker.github.io/personal-jekyll-theme"
-
-# Google tracking id
-google-tracking-id: "UA-XXXXXXXX-X"
+#url: "https://WilderDan.github.io/personal-site"
+google-tracking-id: false
 
 #############
 # HTML Head #
 #############
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+author: "Dan Wilder"
+title: "Dan Wilder"
+description: "Blog and website of Dan Wilder. Focused on my projects and studies."
+keywords: "Wilder, Dan, personal, projects, studies"
 favicon: "/img/favicon.ico"
 ################
 # Header layout #
@@ -31,13 +28,35 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
-me-img: "/img/jetpacktocat.png"
+  - text: "<figure class='quote'>
+        <blockquote>
+          All we have to decide is what to do with the time that is given us.
+        </blockquote>
+        <figcaption>
+          Gandalf, <cite>The Fellowship of the Ring</cite>
+        </figcaption>
+      </figure>"
+  - text: "<figure class='quote'>
+        <blockquote>
+          Would I rather be feared or loved? Easy. Both. I want people to be afraid of how much they love me.
+        </blockquote>
+        <figcaption>
+          Michael Scott, <cite>The Office</cite>
+        </figcaption>
+      </figure>"
+  - text: "<figure class='quote'>
+        <blockquote>
+          Live as if you were to die tomorrow. Learn as if you were to live forever.
+        </blockquote>
+        <figcaption>
+          Mahatma Gandhi
+        </figcaption>
+      </figure>"
+#me-img: "/img/gh-profile.png"
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
 
-# me-img: "https://github.com/user_name.png?size=500"
+me-img: "https://github.com/WilderDan.png?size=500"
 
 # To use gravatar profile pic uncomment the following line and replace 'email_hash'
 # with your gravatar profile email hash.
@@ -105,22 +124,20 @@ pgp: False
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb:
-  "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional
-  engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
+#author_blurb: "Dan Wilder" 
+#author_blurb_image: "/img/author.png"
 ##################
 # Social Buttons #
 ##################
 social:
   - icon: "github"
-    url: "https://github.com/le4ker/personal-jekyll-theme"
-  - icon: "linkedin-in"
-    url: "https://www.linkedin.com"
-  - icon: "x-twitter"
-    url: "https://twitter.com/"
-  - icon: "rss"
-    url: "https://le4ker.github.io/personal-jekyll-theme/feed.xml"
+    url: "https://github.com/WilderDan"
+#  - icon: "linkedin-in"
+#    url: "https://www.linkedin.com"
+#  - icon: "x-twitter"
+#    url: "https://twitter.com/"
+#  - icon: "rss"
+#    url: "https://le4ker.github.io/personal-jekyll-theme/feed.xml"
 ############
 # 404 page #
 ############
@@ -133,8 +150,7 @@ err-404-img: "/img/labtocat.png"
 pages_list:
   About: "about"
   Blog: "latest-post"
-  Timeline: "timeline"
-  Contact: "contact"
+#  Contact: "contact"
 # Exclusion list from the generated _site
 exclude:
   - LICENSE
