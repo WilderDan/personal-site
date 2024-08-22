@@ -1,6 +1,6 @@
 # Site settings
 # NB! Set your site's url, otherwise nothing will work
-#url: "https://WilderDan.github.io/personal-site"
+url: "https://WilderDan.github.io/personal-site"
 google-tracking-id: false
 
 #############
