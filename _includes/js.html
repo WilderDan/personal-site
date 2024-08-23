@@ -65,7 +65,6 @@
     });
   </script>
 
-  {% if site.dynamic-typing %}
 
   <!-- Dynamic Typing Start -->
 
@@ -104,6 +103,7 @@
       shuffle(myQuotes)
     {% endif %}
 
+  {% if site.dynamic-typing %}
     $(".intro-text").typed({
       strings: myQuotes,
       typeSpeed: {{ site.type-speed }},
@@ -113,11 +113,12 @@
       loopCount: {{ site.loop-count }},
       cursorChar: "|"
     });
+
+  {% else %}
+    $(".intro-text").html(myQuotes[0]);
+  {% endif %}
   </script>
 
-  <!-- Dynamic Typing End  -->
-
-  {% endif %}
 
 {% endif %}
 

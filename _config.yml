@@ -21,7 +21,14 @@ background-img: "../img/intro-bg.jpg"
 ##############################
 # Dynamic Text on the Header #
 ##############################
-dynamic-typing: True
+dynamic-typing: False 
+# False
+#   Sets intro-text as a single 'text' value from below 'lines'  
+#
+#   If 'shuffle' is set to True then it will be a random text.
+#   Otherwise, it will always be the first 'text'
+#
+#   The other values in this section won't have any effect.
 shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
