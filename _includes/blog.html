@@ -25,7 +25,7 @@
       </h3>
 
       <section class="text-justify">
-        {{ post.content | strip_html | markdownify | truncatewords:
+        {{ post.content | markdownify | truncatewords:
         site.post-preview-words }}
       </section>
 
