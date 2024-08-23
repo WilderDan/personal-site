@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Call this script from project root directory
+
+if [[ "$#" -ne 1 ]]; then
+    echo "Missing filename parameter"
+    exit 1
+fi
+
+date=$(date '+%Y-%m-%d')
+filename="$date-$1.md"
+filepath="./_posts/$filename"
+
+echo "---
+layout: post
+section-type: post
+category:
+---
+" > $filepath
+
+codium $filepath 
