@@ -18,4 +18,4 @@ category:
 ---
 " > $filepath
 
-codium $filepath 
+$EDITOR $filepath 

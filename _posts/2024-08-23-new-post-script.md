@@ -4,9 +4,23 @@ section-type: post
 category: etc
 ---
 
-Made a script for creating new posts.
+I made a script for simplifying creating new posts for this website.
 
-Run `./scripts/new-post <title>` from project root directory.
+From the project root directory:
 
-This will a create a file `YYYY-MM-DD-<title>.md` in the `_posts` directory. 
-It will also open the file in VSCodium. Fill in the category and write your post.
+`./scripts/new-post <title>`
+
+This will a create a new file named `YYYY-MM-DD-<title>.md` in the `_posts` directory.
+It sets some default values in the front matter block. 
+It then opens the file in the editor specified by the environment variable, `$EDITOR`.
+
+Specify a category in the front matter block.
+Optionally, specify a title if you don't want the default extracted from filename.
+Write the post contents below using Markdown. 
+Save.
+Test locally.
+Commit.
+Push.
+GitHub will automatically build and deploy changes to live site.
+
+
