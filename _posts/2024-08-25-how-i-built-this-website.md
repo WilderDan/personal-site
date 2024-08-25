@@ -60,7 +60,7 @@ Live reload doesn't work with edits to the _config.yml file.
 In that case, I would have to cancel and run again.
 
 The theme authors did a good job. 
-The theme looks great on desktop and mobile by default.
+The theme looks great on desktop and mobile (for the most part) by default.
 It also has icons and a manifest file set up for a web app for your mobile device. 
 All set up by default.
 
@@ -108,6 +108,10 @@ I waited an hour or so and checked enforce HTTPS on GitHub Pages settings.
 
 ## Closing Thoughts
 
-I am happy with how the website looks on desktop and mobile.
+I am happy with how the website looks on desktop and mostly mobile.
+I am running into occasional extra spacing when viewing on iOS.
+It is less than ideal, but it isn't too bad and still very much readable.
+I may look into it down the line. 
+
 The 'new post' script and Jekyll's integration with GitHub makes for a nice workflow.
 I hope to post new things soon!
