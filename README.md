@@ -1,6 +1,8 @@
 # Personal Site
 
-My website. Theme taken from [{ Personal }](https://github.com/le4ker/personal-jekyll-theme).
+My [website](https://www.wilderdan.com/).
+
+Theme taken from [{ Personal }](https://github.com/le4ker/personal-jekyll-theme).
 
 ## How to run locally
 
