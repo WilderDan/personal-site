@@ -16,6 +16,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bolder;
 }
 
+.PageNavigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+
 .language-plaintext {
   background-color: #2d353b;
   color: #d3c6aa;
