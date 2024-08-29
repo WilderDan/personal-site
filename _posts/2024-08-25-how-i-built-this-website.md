@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-category: stem
+category: etc 
 ---
 
 You can see the website source code [here](https://github.com/WilderDan/personal-site).

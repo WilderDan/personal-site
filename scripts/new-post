@@ -14,7 +14,7 @@ filepath="./_posts/$filename"
 echo "---
 layout: post
 section-type: post
-category:
+category: etc
 ---
 " > $filepath
 
