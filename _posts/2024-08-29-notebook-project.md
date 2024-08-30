@@ -4,11 +4,11 @@ section-type: post
 category: etc
 ---
 
-## About
-
-[Live Version](https://notes.wilderdan.com)
-
+[Website](https://notes.wilderdan.com)
+|
 [GitHub](https://github.com/wilderdan/notebook)
+
+## About
 
 A website I made to share my notes. 
 Early in development.
