@@ -23,11 +23,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
       <ul class="nav navbar-nav">
-        {% if page.section-type == "index" %}
-
           <!-- Scroll to section for each page in index -->
           <li>
-              <a class="page-scroll" href="#about">About</a>
+              <a class="page-scroll" href="/#about">About</a>
           </li>
           <li>
               <a class="page-scroll" href="/blog/">Blog</a>
@@ -35,32 +33,9 @@
           <li>
              <a class="page-scroll" href="/projects/">Projects</a>
           <li>
-
-          
-        {% else %}
-          <!-- Blog, Post, Tag and Error pages -->
-          {% for p in site.pages_list %}
-            <li>
-            {% if p[1] == "latest-post" %}
-              {% if page.url == "/blog/index.html" | prepend: {{site.url}} %}
-                <a class="page-scroll" href="#page"> {{p[0]}} </a>
-              {% else %}
-                <a href="{{site.url}}/blog/"> {{p[0]}} </a>
-              {% endif %}
-            {% else %}
-                <a href="{{site.url}}/#{{ p[1] }}"> {{p[0]}} </a>
-            {% endif %}
-            </li>
-          {% endfor %}
-          <!-- My Navigation Additions -->
-           <!-- Maybe make more elegant later -->
           <li>
-            <a class="page-scroll" href="/blog/">Blog</a>
-          </li>
+             <a class="page-scroll" href="/#contact">Contact</a>
           <li>
-             <a class="page-scroll" href="/projects/">Projects</a>
-          <li>
-        {% endif %}
       </ul>
     </div>
   </div>
