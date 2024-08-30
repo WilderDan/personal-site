@@ -26,15 +26,17 @@
         {% if page.section-type == "index" %}
 
           <!-- Scroll to section for each page in index -->
-          {% for p in site.pages_list %}
-            <li>
-              <a class="page-scroll" href="#{{ p[1] }}"> {{p[0]}} </a>
-            </li>
-          {% endfor %}
+          <li>
+              <a class="page-scroll" href="#about">About</a>
+          </li>
+          <li>
+              <a class="page-scroll" href="/blog/">Blog</a>
+          </li>
           <li>
              <a class="page-scroll" href="https://notes.wilderdan.com">Notes</a>
           <li>
 
+          
         {% else %}
           <!-- Blog, Post, Tag and Error pages -->
           {% for p in site.pages_list %}
@@ -50,7 +52,13 @@
             {% endif %}
             </li>
           {% endfor %}
+          <!-- My Navigation Additions -->
+           <!-- Maybe make more elegant later -->
+          <li>
+            <a class="page-scroll" href="https://notes.wilderdan.com">Notes</a>
+         <li>
         {% endif %}
+          
       </ul>
     </div>
   </div>
