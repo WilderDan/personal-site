@@ -25,17 +25,31 @@
       <ul class="nav navbar-nav">
           <!-- Scroll to section for each page in index -->
           <li>
-              <a class="page-scroll" href="/#about">About</a>
+              <a class="page-scroll" 
+              href=
+              {% if page.section-type == "index" %}
+                "#about"
+              {% else %}
+                "/#about"
+              {% endif %}
+                >About</a>
           </li>
           <li>
               <a class="page-scroll" href="/blog/">Blog</a>
           </li>
           <li>
              <a class="page-scroll" href="/projects/">Projects</a>
+          </li>
           <li>
-          <li>
-             <a class="page-scroll" href="/#contact">Contact</a>
-          <li>
+            <a class="page-scroll" 
+              href=
+              {% if page.section-type == "index" %}
+                "#contact"
+              {% else %}
+                "/#contact"
+              {% endif %}
+                >Contact</a>
+          </li>
       </ul>
     </div>
   </div>
