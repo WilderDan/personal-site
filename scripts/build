@@ -1,0 +1,3 @@
+#!/bin/bash
+# Call this script from project root directory
+bundle exec jekyll serve --watch --livereload
